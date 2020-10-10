@@ -1,2 +1,3 @@
 * Check, why no sound is playing anymore (already worked some time ago).
 * Add description on how to install its dependencies (e.g. libcairo, libcanberra).
+* Add help-description oh which keys are assigned to which actions.
