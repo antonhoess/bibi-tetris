@@ -12,4 +12,6 @@ tetris: tetris.c
 
 # Cleaning everything that can be automatically recreated with "make"
 clean:
-	/bin/rm -f $(NAME)
+	@/bin/rm -f $(NAME)
+
+new: clean all

@@ -1439,6 +1439,7 @@ main(int argc, char *argv[])
   gtk_init(&argc, &argv);
 
   window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
+  gtk_window_set_icon_from_file(GTK_WINDOW(window), "images/tetris_icon.png", NULL);
 
   darea = gtk_drawing_area_new();
   gtk_container_add(GTK_CONTAINER(window), darea);
